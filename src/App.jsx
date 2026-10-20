@@ -8,7 +8,7 @@ const App = () => {
       <div className="min-h-screen flex flex-col bg-background">
         <Header/>
         <Routes>
-          // <Route path="/contato" element={<Contato />} />
+          {/* <Route path="/contato" element={<Contato />} /> */}
           <Route path="/sobre" element={<Sobre />} />
         </Routes>
       </div>
